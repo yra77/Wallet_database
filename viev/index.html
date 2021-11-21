@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+       <!-- <html lang="en"> -->
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta http-equiv='content-language' content='en'> -->
+		<meta name="robots" content="INDEX,ALL"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link href="./style.css" rel="stylesheet" type="text/css" media="all"/> <!-- ?ts=<?=time()?> -->
+            <script src="./jquery.min.js"></script>
+            <script btype="text/javascript" src="./send.js"></script>
+            <script btype="text/javascript" src="./receive.js"></script>
+            <script btype="text/javascript" src="./start.js"></script>
+            <script btype="text/javascript" src="./history.js"></script>
+      
+      <title>Multi wallet</title>
+    </head>
+    <body>
+      <button class="history">Transaction history</button>
+            <div class="high">
+
+               <div id="divReceive"></div>
+               <div class="secretCode"><span>Secret code please copy and save</span><p id="secretCode" class="pCopy"></p><button class="fa copySecCod">&#xf0c5; copy</button></div>
+               
+                 <div class="wallet">
+
+                  <table class="table table-borderless table-sm"> 
+                    <thead>
+                      <tr>
+                        <th scope="col">name</th>
+                        <th scope="col">coins</th>
+                        <th scope="col">&nbsp;sum</th>
+                        <th scope="col">&nbsp;&nbsp;price</th>
+                        <th scope="col">percent</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>    
+                    <tbody>
+                      <tr id="bitcoin">
+                        <td ><img src="./img/bitcoin.png" class="img" alt=""> Bitcoin  &nbsp;&nbsp;<span>btc</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="litecoin">
+                        <td><img src="./img/litecoin.png" class="img" alt=""> Litecoin  &nbsp;&nbsp;<span>ltc</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="dogecoin">
+                        <td><img src="./img/dogecoin.png" class="img" alt=""> Dogecoin  &nbsp;&nbsp;<span>doge</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="solana">
+                        <td><img src="./img/solana.png" class="img" alt=""> Solana  &nbsp;&nbsp;<span>sol</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="ethereum">
+                        <td><img src="./img/ethereum.png" class="img" alt=""> Ethereum  &nbsp;&nbsp;<span>eth</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="shiba_inu">
+                        <td> <img src="./img/shiba_inu.png" class="img" alt=""> Shiba inu  &nbsp;&nbsp;<span>shib</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="tether">
+                        <td><img src="./img/tether.png" class="img" alt=""> Tether  &nbsp;&nbsp;<span>usdt</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="bnb">
+                        <td><img src="./img/bnb.png" class="img" alt=""> BNB  &nbsp;&nbsp;<span>bnb</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                      <tr id="busd">
+                        <td><img src="./img/busd.png" class="img" alt=""> Busd  &nbsp;&nbsp;<span>busd</span></td>
+                        <td class="balance"></td>
+                        <td class="sum"></td>
+                        <td class="price"></td>
+                        <td class="percent"></td>
+                        <td><button class="butSend" type='button'>send</button></td>
+                        <td><button class="butReceive" type='button'>receive</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                 </div>
+
+             </div>
+            
+    </body>
+</html>

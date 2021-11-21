@@ -1,0 +1,44 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "Cryptocurrency wallet for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Crypto",
+    "Cryptocurrency",
+    "Wallet",
+    "Wallets",
+    "Address",
+    "Addresses",
+    "Private Key",
+    "Bep20",
+    "Erc20",
+    "Bitcoin",
+    "Ethereum",
+    "Litecoin",
+    "Dogecoin",
+    "Solana",
+    "Tether",
+    "Shiba-inu",
+    "BNB",
+    "Busd"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.29.2",
+    "axios": "^0.21.4",
+    "bitcore-lib": "^8.25.10",
+    "bitcore-lib-doge": "^8.25.10",
+    "body-parser": "^1.19.0",
+    "coingecko-api": "^1.0.10",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.1",
+    "express": "^4.17.1",
+    "litecore-lib": "^0.13.22",
+    "mysql": "^2.18.1",
+    "web3": "^1.6.1"
+  }
+}

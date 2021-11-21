@@ -1,0 +1,210 @@
+
+body
+{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    /* background:rgb(56, 2, 150); */
+    background: no-repeat url("../img/univers.jpg");/* center/100%*/
+    width: 98%;
+    height: 35em;
+    padding: 0px;
+}
+.history:active
+{
+    outline: none;
+}
+.history:focus
+{
+    outline: none;
+}
+.history
+{
+    background-color: black;
+    border: none;
+     float:left; 
+     margin-left:2em; 
+     margin-top:2em; 
+     color:rgb(59, 138, 243); 
+     font-size:90%;
+     outline: none;
+}
+.high
+{
+    background-color: rgb(7, 4, 61);
+    color:rgb(43, 107, 150);
+    width: 65%;
+    border: 1px solid #07294b;
+    /* float: left; */
+    margin-left: 17%;
+    margin-top: 2.5%;
+    height: auto;
+    min-height: 35em;
+    text-align: center;
+     border-radius: 4%;  /* 25%,10% */
+}
+.wallet
+{
+     margin-right: 2em; 
+    margin-top: 2em;
+}
+.wallet table
+{
+    color:rgb(248, 252, 251);
+}
+#secretCode
+{
+    margin-top: 1em;
+    font-size: 70%;
+    color:#d63c51;
+}
+.secretCode
+{
+    width: 70%;
+    margin-left: 14%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+}
+.secretCode span
+{
+    margin-left: 4%;
+}
+.copy:active
+{
+    outline: none;
+    color: green;
+}
+.copy:focus
+{
+    outline: none;
+}
+.copy:hover
+{
+    color: green;
+    outline: none;
+}
+.copy
+{
+    border:none;
+    font-size: 80%;
+    color:white;
+    background-color: rgb(14, 11, 54);
+}
+.copySecCod
+{
+    outline: none;
+    color: green;
+}
+.copySecCod:focus
+{
+    outline: none;
+}
+.copySecCod:hover
+{
+    color: green;
+    outline: none;
+}
+.copySecCod
+{
+    border:none;
+    font-size: 80%;
+    color:white;
+    background-color: rgb(14, 11, 54);
+}
+.wallet table button
+{
+   padding: 0px;
+   background-color: rgb(7, 4, 61); 
+   border: 0.01em solid blue;
+   width: 4em;
+   height: 1.7em;
+   color:rgb(240, 235, 235);
+   text-align: center;
+   border-radius: 8%;
+   font-size: 80%;
+   vertical-align: middle;
+}
+table
+{
+    width: 80%;
+    margin-left: 3%;
+}
+.table span
+{
+    color: rgb(116, 112, 112);
+}
+.table thead
+{
+    border-bottom: 0.05px solid rgb(51, 50, 50);
+}
+.table th
+{
+    font-weight: 400;
+    color: rgb(151, 146, 146);
+}
+td:nth-child(1) 
+{
+    width: 9em;
+    text-align: left;
+}
+td:nth-child(2) 
+{ 
+    text-align: center;
+    width: 6em;
+}
+td:nth-child(3) 
+{ 
+    text-align: left;
+    width: 6em;
+}
+th:nth-child(3) 
+{ 
+    text-align: left;
+    width: 6em;
+}
+td:nth-child(4) 
+{ 
+    width: 7em;
+    text-align: left;
+}
+th:nth-child(4) 
+{ 
+    text-align: left;
+}
+td:nth-child(5)
+{
+    width: 5em;
+    text-align: center;
+}
+td:nth-child(6)
+{
+    width: 5em;
+    text-align: center;
+}
+td:nth-child(7)
+{
+    width: 5em;
+    text-align: center;
+}
+.price
+{
+    color:rgb(2, 177, 2);
+}
+.img
+{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 1.2em;
+    vertical-align: middle;
+}
+.wallet .balance
+{
+    color:lime;
+}
+.wallet table button:hover 
+{
+    background-color: blue;
+    color: rgb(255, 250, 250);
+    border: none;
+}
